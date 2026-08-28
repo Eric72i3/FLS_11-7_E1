@@ -14,8 +14,8 @@ Für die Ausführung wird eine installierte Java-Version benötigt.
 Das Programm kann mit folgenden Befehlen gestartet werden:
 
 ```bash
-javac Hello_World.java
-java Hello_World
+javac -d out hello_world/Hello_World.java
+java -cp out hello_world.Hello_World
 ```
 
 Als Ausgabe erscheint:
@@ -28,9 +28,11 @@ Hello, World!
 
 ```text
 FLS_11-7_E1/
-├── Hello_World.java   # Java-Hauptprogramm
-├── README.md          # Projektbeschreibung
-└── Hello_World.class  # kompilierte Datei (nach javac)
+├── hello_world/
+│   └── Hello_World.java
+├── n_und_t_bei_println/
+│   └── n_und_t_bei_println.java
+└── README.md
 ```
 
 ## Lernziel
