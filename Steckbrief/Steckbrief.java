@@ -19,6 +19,8 @@ public class Steckbrief {
         System.out.println("Alter: " + alter);
         System.out.println("Geschlecht: " + geschlecht);
         System.out.println("Name: " + name);
+
+        sc.close();
     }
 
     
