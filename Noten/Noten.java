@@ -10,15 +10,18 @@ public class Noten
     test1 = 4; 
     test2 = 2; 
     anzahl = 6; 
-    int note;
+    double note;
     notenschnitt = (klausur1*2 + klausur2*2 + test1 +test2)/ (double) anzahl; 
-    note = (int) Math.round(notenschnitt);
+
     System.out.println("1.Klausur: " + klausur1); 
     System.out.println("2.Klausur: " + klausur2); 
     System.out.println("1.Test:           " + test1); 
     System.out.println("2.Test:           " + test2); 
     System.out.println("________________________"); 
     System.out.println("Notenschnitt = " + notenschnitt); 
-    System.out.println("Zeugnisnote = " + note);
+    notenschnitt = notenschnitt + 0.5;
+    note = (int) notenschnitt;
+    System.out.println("Rundung = " + note);
+    System.out.println("________________________");
     } 
   }
