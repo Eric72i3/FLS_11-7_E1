@@ -12,10 +12,7 @@ public class Noten
     anzahl = 6; 
     double note;
     notenschnitt = (klausur1*2 + klausur2*2 + test1 +test2)/ (double) anzahl; 
-    double rundungk = (double) notenschnitt;
-    int rundungok = (int) notenschnitt;
-    double kommer =rundungk - rundungok ;
-    kommer =  (kommer * 100 +0.5);
+    double kommer =  (notenschnitt * 100 +0.5);
     kommer = (int) kommer;
     kommer = kommer / 100;
     System.out.println("1.Klausur: " + klausur1); 
