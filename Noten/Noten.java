@@ -15,13 +15,9 @@ public class Noten
     double rundungk = (double) notenschnitt;
     int rundungok = (int) notenschnitt;
     double kommer =rundungk - rundungok ;
-    kommer =  kommer * 100;
-    kommer = kommer + 0.5;
+    kommer =  (kommer * 100 +0.5);
     kommer = (int) kommer;
     kommer = kommer / 100;
-    
-    System.out.println ("Kommastelle = " + kommer);
-    System.out.println("Kommastelle = " + kommer);
     System.out.println("1.Klausur: " + klausur1); 
     System.out.println("2.Klausur: " + klausur2); 
     System.out.println("1.Test:           " + test1); 
@@ -32,5 +28,7 @@ public class Noten
     note = (int) notenschnitt;
     System.out.println("Rundung = " + note);
     System.out.println("________________________");
+    System.out.println("Kommastelle = " + kommer);
+    
     } 
   }
