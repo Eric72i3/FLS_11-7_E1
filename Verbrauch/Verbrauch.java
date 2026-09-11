@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Verbrauch {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
+        Scanner scanner = new Scanner(System.in);    
         
         System.out.print("Gib die gefahrenen Kilometer ein: ");
         double kilometer = scanner.nextDouble();
+        
         
         System.out.print("Gib den verbrauchten Kraftstoff ein: ");
         double kraftstoff = scanner.nextDouble();

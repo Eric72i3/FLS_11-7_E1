@@ -14,4 +14,7 @@ void main() {
     
     // Formatierte Ausgabe mit dem eingegebenen Namen
     println("Hi " + name + ", willkommen in Java 25!");
+    IO.println("test");
+    println("Zufallszahl: " + Math.random());
+    
 }
