@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class LineareGleichung {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("a = ");
+		double a = scanner.nextDouble();
+		System.out.print("b = ");
+		double b = scanner.nextDouble();
+		System.out.print("y = ");
+		double y = scanner.nextDouble();
+
+		if (a == 0) {
+			if (y == b) {
+				System.out.println("Die Gleichung hat unendlich viele Lösungen.");
+			} else {
+				System.out.println("Die Gleichung hat keine Lösung.");
+			}
+		} else {
+			double x = (y - b) / a;
+			System.out.println("x = " + x);
+		}
+
+		scanner.close();
+	}
+}
