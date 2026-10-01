@@ -1,0 +1,26 @@
+Aufgabe 3 - Struktogramm (für Beispiel01)
+
+START
+  Eingabe kundennummer
+  Eingabe anzahl
+  Eingabe preis
+  gesamtpreis = preis * anzahl
+
+  IF kundennummer < 100
+    gesamtpreis = gesamtpreis * 0.95
+  ENDIF
+
+  IF anzahl < 20
+    gesamtpreis = gesamtpreis + 15
+  ELSE IF anzahl < 50
+    gesamtpreis = gesamtpreis + 5
+  ENDIF
+
+  Ausgabe gesamtpreis
+END
+
+Geeignete Aufgabenstellung:
+"Erstellen Sie ein Java-Programm zur Berechnung eines Auftragswertes. Das Programm liest
+Kundennummer, Bestellmenge und Stückpreis ein, berechnet den Gesamtpreis und berücksichtigt
+Rabatt für Stammkunden (Kundennummer < 100) sowie mengenabhängige Versandkosten
+(unter 20 Stück: 15 EUR, unter 50 Stück: 5 EUR, sonst keine Zusatzkosten)."
