@@ -35,13 +35,11 @@ public class ScannerApp {
         default:
             System.out.println("Ungültige Eingabe");
         break;
-        IO.println("Wollen sie eine weitere Rechnung machen? (ja/nein)"); 
+
          
         }
         }
         sc.close();
-        IO.println("Programm beendet.");
-        
 
 
  
