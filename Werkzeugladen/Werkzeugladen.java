@@ -28,5 +28,6 @@ public class Werkzeugladen {
          
         System.out.println("Vielen Dank für Ihren Einkauf! ihr preis ist: " + totalPreis + " cts");
     }
+    scanner.close();
     }
 }
