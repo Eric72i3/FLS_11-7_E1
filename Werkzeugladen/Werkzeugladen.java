@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Werkzeugladen {
     public static void main(String[] args) {
-        int totalPreis = 0;
+    int totalPreis = 0;
     Scanner scanner = new Scanner(System.in);
     System.out.println("Willkommen im Werkzeugladen!");
     System.out.println("Wie viele Muttern möchten Sie kaufen?");
